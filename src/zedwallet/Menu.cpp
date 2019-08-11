@@ -193,8 +193,8 @@ bool checkNodeStatus(CryptoNote::INode &node)
     {
         std::stringstream msg;
 
-        msg << "It looks like " << WalletConfig::daemonName << " isn't open!"
-            << std::endl << std::endl
+        msg << "It looks like the oscillate daemon isn't open!"
+            << std::endl
             << "Ensure " << WalletConfig::daemonName
             << " is open and has finished initializing." << std::endl
             << "If it's still not working, try restarting "

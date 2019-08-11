@@ -37,7 +37,7 @@ void checkForNewTransactions(std::shared_ptr<WalletInfo> walletInfo)
                           << std::endl
                           << SuccessMsg("Incoming transfer:")
                           << std::endl
-                          << SuccessMsg("Hash: " + Common::podToHex(t.hash))
+                          << SuccessMsg("TXN Hash: " + Common::podToHex(t.hash))
                           << std::endl
                           << SuccessMsg("Amount: "
                                       + formatAmount(t.totalAmount))
@@ -147,7 +147,7 @@ void syncWallet(CryptoNote::INode &node,
                           << WarningMsg(".")
                           << std::endl
                           << WarningMsg("If this persists, visit ")
-                          << WarningMsg(WalletConfig::contactLink)
+                          << WarningMsg("https://discord.gg/b5JzwWa")
                           << WarningMsg(" for support.")
                           << std::endl;
             }

@@ -3,12 +3,6 @@
 
 
 
-### Installing
-
-We offer Pre-Compiled Windows binaries of the latest releases here: https://oscillate-coin.github.io/
-
-If you would like to compile yourself, read on.
-
 ### How To Compile
 
 #### Linux
