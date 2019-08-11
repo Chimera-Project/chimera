@@ -75,8 +75,7 @@ void Miner::runWorkers(BlockMiningParameters blockMiningParameters, size_t threa
               << InformationMsg("The Current network hashrate is ")
               << InformationMsg(blockMiningParameters.difficulty / 60 / 1000)
               << InformationMsg(" K/hs")
-              << InformationMsg("\n")
-
+              << InformationMsg("\n");
     try
     {
         blockMiningParameters.blockTemplate.nonce = Random::randomValue<uint32_t>();
