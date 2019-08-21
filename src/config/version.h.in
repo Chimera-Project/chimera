@@ -3,7 +3,7 @@
 
 #define PROJECT_NAME "Oscillate"
 #define PROJECT_SITE "https://oscillate.me/"
-#define PROJECT_COPYRIGHT "Copyright 2018-2019, The TurtleCoin Developers"
+#define PROJECT_COPYRIGHT "Copyright 2018-2019, The Oscillate Developers"
 #define APP_VER_MAJOR 1
 #define APP_VER_MINOR 1
 #define APP_VER_REV 0
