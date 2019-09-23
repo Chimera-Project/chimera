@@ -259,7 +259,10 @@ const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 
 const char* const SEED_NODES[] = {
   "134.209.75.124:11245",//node1
-  "134.209.208.103:11245", //drgonzoo's 5.00 fee node
-  "45.32.240.41:11245"     //drgonzoo's Sydney Based node
+  "142.93.188.178:11245",//poolbay
+  "159.203.95.84:11245",//official pool
+  "167.71.126.224:11245", //explorer
+  "134.209.208.103:11245", //drgonzoo's NYC node
+  "45.32.240.41:11245"     //drgonzoo's Sydney node
 };
 } // CryptoNote
