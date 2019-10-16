@@ -1,6 +1,7 @@
 // Copyright (c) 2012-2017, The CryptoNote developers, The Bytecoin developers
 // Copyright (c) 2014-2018, The Monero Project
 // Copyright (c) 2018-2019, The TurtleCoin Developers
+// Copyright (c) 2019, The Oscillate Developers
 // Copyright (c) 2019-2019, The Chimera Developers
 // Please see the included LICENSE file for more information.
 
@@ -68,7 +69,7 @@ TurtleCoind --print-genesis-tx --genesis-block-reward-address TRTLv2Fyavy8CXG8BP
 * You should see your premine appear in the previously generated wallet.
 
 */
-const char     GENESIS_COINBASE_TX_HEX[]                     = "011401ff00018094ebdc0302c7e583a3b5025a3b4c89367baa0799bf98989c6f9e7cb0c1c2ed3c49bd63a9df21011ff1508be145d21cc142b009a5764b5968ffea9b0f269fd8754a31420c2a739a";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "011401ff000180a0be8195010258d7adbb934ec671b3ee39044e0501a3f616c1c1a68d55beb886e42c8a8999942101e61c50d8222adb6df5889d428abdf404e1fbb56b6dea94da45540ad7335b0b78";
 static_assert(sizeof(GENESIS_COINBASE_TX_HEX)/sizeof(*GENESIS_COINBASE_TX_HEX) != 1, "GENESIS_COINBASE_TX_HEX must not be empty.");
 
 /* This is the unix timestamp of the first "mined" block (technically block 2, not the genesis block)
