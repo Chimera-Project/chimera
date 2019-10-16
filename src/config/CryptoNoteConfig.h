@@ -249,8 +249,8 @@ const uint64_t DATABASE_READ_BUFFER_MB_DEFAULT_SIZE          = 10;
 const uint32_t DATABASE_DEFAULT_MAX_OPEN_FILES               = 100;
 const uint16_t DATABASE_DEFAULT_BACKGROUND_THREADS_COUNT     = 2;
 
-const char     LATEST_VERSION_URL[]                          = " https://chimera-project.github.io/chimera_website "; 
-const std::string LICENSE_URL                                = " https://chimera-project.github.io/chimera-nodes ";
+const char     LATEST_VERSION_URL[]                          = "https://chimera-project.github.io/chimera_website"; 
+const std::string LICENSE_URL                                = "https://chimera-project.github.io/chimera-nodes";
 const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 {
     {  0xb3, 0x0b, 0x6a, 0x9b, 0xcd, 0x25, 0x11, 0x44, 0x60, 0xc8, 0x80, 0xa7, 0xb3, 0xb7, 0x19, 0xe1  }
