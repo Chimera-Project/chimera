@@ -1,4 +1,4 @@
-![image](https://i.imgur.com/slgz2tk.png)
+![image](https://chimera-project.github.io/chimera_website/assets/images/logo-with-dna.svg)
 
 
 
