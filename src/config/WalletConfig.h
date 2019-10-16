@@ -1,5 +1,5 @@
 // Copyright (c) 2018, The TurtleCoin Developers
-// 
+// Copyright (c) 2019, The Chimera Developers
 // Please see the included LICENSE file for more information.
 
 #pragma once
@@ -10,10 +10,10 @@
 namespace WalletConfig
 {
     /* The prefix your coins address starts with */
-    const std::string_view addressPrefix = "hann";
+    const std::string_view addressPrefix = "cmra";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
-    const std::string ticker = "OSL";
+    const std::string ticker = "CMRA";
 
     /* The filename to output the CSV to in save_csv */
     const std::string csvFilename = "transactions.csv";
@@ -23,20 +23,20 @@ namespace WalletConfig
     const std::string addressBookFilename = ".addressBook.json";
 
     /* The name of your deamon */
-    const std::string daemonName = "oscillate-daemon";
+    const std::string daemonName = "chimerad";
 
     /* The name to call this wallet */
-    const std::string walletName = "oscillate-wallet";
+    const std::string walletName = "cmrawallet";
 
     /* The name of service/walletd, the programmatic rpc interface to a
        wallet */
-    const std::string walletdName = "oscillate-service";
+    const std::string walletdName = "chimera-service";
 
     /* The full name of your crypto */
     const std::string coinName = std::string(CryptoNote::CRYPTONOTE_NAME);
 
     /* Where can your users contact you for support? E.g. discord */
-    const std::string contactLink = "https://discord.gg/b5JzwWa";
+    const std::string contactLink = "https://discord.gg/x3md2Nr";
 
 
     /* The number of decimals your coin has */
