@@ -161,10 +161,10 @@ add_dependencies(WalletService version)
 add_dependencies(zedwallet version)
 
 # Finally build the binaries
-set_property(TARGET TurtleCoind PROPERTY OUTPUT_NAME "oscillated")
-set_property(TARGET zedwallet PROPERTY OUTPUT_NAME "oslwallet")
+set_property(TARGET TurtleCoind PROPERTY OUTPUT_NAME "chimerad")
+set_property(TARGET zedwallet PROPERTY OUTPUT_NAME "cmrawallet")
 set_property(TARGET zedwallet++ PROPERTY OUTPUT_NAME "zedwallet-beta")
-set_property(TARGET service PROPERTY OUTPUT_NAME "osl-service")
+set_property(TARGET service PROPERTY OUTPUT_NAME "chimera-service")
 set_property(TARGET miner PROPERTY OUTPUT_NAME "solo-miner")
 set_property(TARGET cryptotest PROPERTY OUTPUT_NAME "cryptotest")
 set_property(TARGET WalletApi PROPERTY OUTPUT_NAME "wallet-api")
