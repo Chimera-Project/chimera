@@ -97,11 +97,20 @@ const uint64_t MAXIMUM_MIXIN_V2                              = 5;
 
 const uint64_t MINIMUM_MIXIN_V3                              = 1;
 const uint64_t MAXIMUM_MIXIN_V3                              = 7;
+  
+const uint64_t MINIMUM_MIXIN_V4                              = 1;
+const uint64_t MAXIMUM_MIXIN_V4                              = 2;
+  
+const uint64_t MINIMUM_MIXIN_V5                              = 1;
+const uint64_t MAXIMUM_MIXIN_V5                              = 7;
 
 /* The heights to activate the mixin limits at */
 const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 20;
 const uint32_t MIXIN_LIMITS_V2_HEIGHT                        = 40;
 const uint32_t MIXIN_LIMITS_V3_HEIGHT                        = 60;
+const uint32_t MIXIN_LIMITS_V4_HEIGHT                        = 30000; 
+const uint32_t MIXIN_LIMITS_V5_HEIGHT                        = 300000;
+  
 
 /* The mixin to use by default with zedwallet and turtle-service */
 /* DEFAULT_MIXIN_V0 is the mixin used before MIXIN_LIMITS_V1_HEIGHT is started */
@@ -140,7 +149,7 @@ const uint64_t MAX_EXTRA_SIZE_V2_HEIGHT                      = 1300000;
 
 /* For new projects forked from this code base, this value should be
    changed to 0 to prevent a possible transaction bloat exploit */
-const uint64_t TRANSACTION_SIGNATURE_COUNT_VALIDATION_HEIGHT = 1400000;
+const uint64_t TRANSACTION_SIGNATURE_COUNT_VALIDATION_HEIGHT = 0;
 
 const uint64_t CRYPTONOTE_LOCKED_TX_ALLOWED_DELTA_BLOCKS     = 1;
 const uint64_t CRYPTONOTE_LOCKED_TX_ALLOWED_DELTA_SECONDS    = DIFFICULTY_TARGET * CRYPTONOTE_LOCKED_TX_ALLOWED_DELTA_BLOCKS;
