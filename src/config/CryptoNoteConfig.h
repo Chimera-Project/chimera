@@ -102,14 +102,18 @@ const uint64_t MINIMUM_MIXIN_V4                              = 1;
 const uint64_t MAXIMUM_MIXIN_V4                              = 2;
   
 const uint64_t MINIMUM_MIXIN_V5                              = 1;
-const uint64_t MAXIMUM_MIXIN_V5                              = 7;
+const uint64_t MAXIMUM_MIXIN_V5                              = 2;
+  
+const uint64_t MINIMUM_MIXIN_V6                              = 1;
+const uint64_t MAXIMUM_MIXIN_V6                              = 7;
 
 /* The heights to activate the mixin limits at */
 const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 20;
 const uint32_t MIXIN_LIMITS_V2_HEIGHT                        = 40;
 const uint32_t MIXIN_LIMITS_V3_HEIGHT                        = 60;
 const uint32_t MIXIN_LIMITS_V4_HEIGHT                        = 30000; 
-const uint32_t MIXIN_LIMITS_V5_HEIGHT                        = 300000;
+const uint32_t MIXIN_LIMITS_V5_HEIGHT                        = 35000;
+const uint32_t MIXIN_LIMITS_V6_HEIGHT                        = 400000;
   
 
 /* The mixin to use by default with zedwallet and turtle-service */
@@ -118,8 +122,8 @@ const uint64_t DEFAULT_MIXIN_V0                              = 1;
 const uint64_t DEFAULT_MIXIN_V1                              = MAXIMUM_MIXIN_V1;
 const uint64_t DEFAULT_MIXIN_V2                              = MAXIMUM_MIXIN_V2;
 const uint64_t DEFAULT_MIXIN_V3                              = MAXIMUM_MIXIN_V3;
-const uint64_t DEFAULT_MIXIN_V4                              = MAXIMUM_MIXIN_V4;
 const uint64_t DEFAULT_MIXIN_V5                              = MAXIMUM_MIXIN_V5;
+const uint64_t DEFAULT_MIXIN_V6                              = MAXIMUM_MIXIN_V6;
 
 const uint64_t DEFAULT_DUST_THRESHOLD                        = UINT64_C(10);
 const uint64_t DEFAULT_DUST_THRESHOLD_V2                     = UINT64_C(0);
