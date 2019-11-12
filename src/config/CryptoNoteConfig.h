@@ -112,7 +112,7 @@ const uint32_t MIXIN_LIMITS_V1_HEIGHT                        = 20;
 const uint32_t MIXIN_LIMITS_V2_HEIGHT                        = 40;
 const uint32_t MIXIN_LIMITS_V3_HEIGHT                        = 60;
 const uint32_t MIXIN_LIMITS_V4_HEIGHT                        = 30000; 
-const uint32_t MIXIN_LIMITS_V5_HEIGHT                        = 35000;
+const uint32_t MIXIN_LIMITS_V5_HEIGHT                        = 38000;
 const uint32_t MIXIN_LIMITS_V6_HEIGHT                        = 400000;
   
 
