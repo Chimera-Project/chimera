@@ -4,9 +4,9 @@
 #define PROJECT_NAME "Chimera"
 #define PROJECT_SITE "https://chimera-project.github.io/chimera_website/"
 #define PROJECT_COPYRIGHT "Copyright 2018-2019, The Chimera Developers"
-#define APP_VER_MAJOR 2
-#define APP_VER_MINOR 1
-#define APP_VER_REV 0
+#define APP_VER_MAJOR 3
+#define APP_VER_MINOR 0
+#define APP_VER_REV 1
 #define APP_VER_BUILD 16
 
 #define BUILD_COMMIT_ID "@VERSION@"
