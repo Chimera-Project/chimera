@@ -105,7 +105,7 @@ const uint64_t MINIMUM_MIXIN_V5                              = 1;
 const uint64_t MAXIMUM_MIXIN_V5                              = 2;
   
 const uint64_t MINIMUM_MIXIN_V6                              = 0;
-const uint64_t MAXIMUM_MIXIN_V6                              = 3;
+const uint64_t MAXIMUM_MIXIN_V6                              = 7;
 
  const uint64_t MINIMUM_MIXIN_V7                             = 0;
 const uint64_t MAXIMUM_MIXIN_V7                              = 7;
