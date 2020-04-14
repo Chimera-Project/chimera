@@ -280,10 +280,11 @@ const static   boost::uuids::uuid CRYPTONOTE_NETWORK         =
 };
 
 const char* const SEED_NODES[] = {
-  "155.138.219.219:11245", //USA seed node
+  "99.122.210.219:11245", //USA seed node
   "95.179.188.118:11245", //Europe seed node 
   "207.148.77.219:11245", //East Asia seed node and block explorer
-  "75.174.142.9:11245", //Cryptodude seed node
+  "95.152.103.50:11245", //Cryptodude seed node
   "3.225.124.85:11245", //Tyler seed node
 };
 } // CryptoNote
+
