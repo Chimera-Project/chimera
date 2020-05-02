@@ -15,16 +15,16 @@ You'll mine to that public address.
 Then download xmr-stak from the official fireice github site according to your mining hardware:
 
 CPU Windows miner:
-https://github.com/fireice-uk/xmr-stak/releases/download/2.10.5/xmr-stak-win64-2.10.5.zip
+https://github.com/fireice-uk/xmr-stak/releases/download/1.0.4-rx/xmr-stak-rx-win64-1.0.4.zip
 
 CPU Linux miner:
-https://github.com/fireice-uk/xmr-stak/releases/download/2.10.5/xmr-stak-linux-2.10.5-cpu.tar.xz
+https://github.com/fireice-uk/xmr-stak/releases/download/1.0.4-rx/xmr-stak-rx-linux-1.0.4-cpu.tar.xz
 
 NVidia GPU Linux miner:
-https://github.com/fireice-uk/xmr-stak/releases/download/2.10.5/xmr-stak-linux-2.10.5-cpu_cuda-nvidia.tar.xz
+https://github.com/fireice-uk/xmr-stak/releases/download/1.0.4-rx/xmr-stak-rx-linux-1.0.4-cpu_cuda-nvidia.tar.xz
 
 AMD GPU Linux miner:
-https://github.com/fireice-uk/xmr-stak/releases/download/2.10.5/xmr-stak-linux-2.10.5-cpu_opencl-amd.tar.xz
+https://github.com/fireice-uk/xmr-stak/releases/download/1.0.4-rx/xmr-stak-rx-linux-1.0.4-cpu_opencl-amd.tar.xz
 
 and select turtlecoin algorithm. You'll then use the mining address of :
 
